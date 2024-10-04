@@ -1,0 +1,422 @@
+/*.div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid blue;
+    border-top: 20px solid black;
+    animation: spinAnimate 1s ease-in-out 0s infinite normal;
+}
+@keyframes spinAnimate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+   
+.b1 {
+    background-color:#ff0000 ;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+    .b1:hover {
+        background-color: rgb(200,0,0);
+    }*/
+*{
+    margin:0px;
+    padding:0px;
+}
+/**Nav bar**/
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    width:100px;
+    height:50px;
+}
+
+.logo {
+    background-image: url("/Images/amazon-logo.jpg");
+    background-size:cover;
+    background-color:#0F1111;
+    width: 100%;
+    height: 50px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.deliverto {
+    font-size: 0.73rem;
+    color: #cccccc;
+    margin-left:15px;
+}
+.pakistan {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 5px;
+}
+.address-icon{
+    display:flex;
+    align-items:center;
+}
+
+/** box3 **/
+.nav-search{
+    display:flex;
+    height:40px;
+    width:620px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+    border-radius:4px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px auto;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+.search-select:hover {
+    background: #e0e0e0;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+.search-icon{
+    width:45px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#Febd68;
+    font-size:1.5rem;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:#0F1111;
+}
+
+/** box5 **/
+.hello-signin {
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+.account{
+    font-size:0.83rem;
+    font-weight:700;
+}
+
+/** box6 **/
+.returns {
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+.orders {
+    font-size: 0.83rem;
+    font-weight: 700;
+}
+
+/** box7 **/
+.nav-cart i{
+   font-size:30px;
+}
+
+.nav-cart {
+    font-size:0.83rem;
+    font-weight:700;
+}
+
+/**panel**/
+.panel{
+    background-color:#222F3d;
+    font:12px;
+    height:40px;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    font-size:0.850rem;
+    margin-left:15px;
+}
+.panel-ops{
+    width:70%;
+    font-size:0.850rem;
+    font-weight:700;
+}
+
+/**hero section**/
+.hero-section {
+    background-image: url("/Images/hero-image.jpg");
+    background-size:cover;
+    height:300px;
+}
+/**shop section**/
+.shop-section {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.box {
+    background-color: #FFFFFF;
+    width:24%;
+    height:420px;
+    margin-top:10px;
+    padding:20px 0px 10px; 
+  
+   
+}
+.box1-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Headphone.jpg");
+    background-size: cover;
+}
+.box2-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Keyboard-image.jpg");
+    background-size: cover;
+}
+.box3-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Computer-mice.jpg");
+    background-size: cover;
+}
+.box4-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Chairs.jpg");
+    background-size: cover;
+}
+.box5-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Cleaning-tool.jpg");
+    background-size: cover;
+}
+.box6-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Home-storage.jpg");
+    background-size: cover;
+}
+.box7-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/HomeDecor.jpg");
+    background-size: cover;
+}
+.box8-image {
+    height: 116px;
+    width: 150px;
+    background-image: url("/Images/Bedding.jpg");
+    background-size: cover;
+}
+.box9-image {
+    height: 116px;
+    width: 150px;
+    background-image: url("/Images/kitchen-dining.jpg");
+    background-size: cover;
+}
+.box10-image {
+    height: 116px;
+    width: 150px;
+    background-image: url("/Images/home-improvement.jpg");
+    background-size: cover;
+}
+.box11-image {
+    height: 116px;
+    width: 150px;
+    background-image: url("/Images/decor.jpg");
+    background-size: cover;
+}
+.box12-image {
+    height: 116px;
+    width: 150px;
+    background-image: url("/Images/bedding-bath.jpg");
+    background-size: cover;
+}
+.box13-image {
+    height: 145px;
+    width: 370px;
+    background-image: url("/Images/cooker.jpg");
+    background-size: cover;
+}
+.box14-image {
+    height: 75px;
+    width: 113px;
+    background-image: url("/Images/coffee.jpg");
+    background-size: cover;
+}
+.box15-image {
+    height: 75px;
+    width: 113px;
+    background-image: url("/Images/pots-pans.jpg");
+    background-size: cover;
+}
+.box16-image {
+    height: 75px;
+    width: 113px;
+    background-image: url("/Images/kettles.jpg");
+    background-size: cover;
+}
+.box17-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/jeans.jpg");
+    background-size: cover;
+}
+.box18-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Top.jpg");
+    background-size: cover;
+}
+.box19-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Dresses.jpg");
+    background-size: cover;
+}
+.box20-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/Shoes.jpg");
+    background-size: cover;
+}
+.box21-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/dining.jpg");
+    background-size: cover;
+}
+
+.box22-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/home.jpg");
+    background-size: cover;
+}
+
+.box23-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/kitchen.jpg");
+    background-size: cover;
+}
+
+.box24-image {
+    height: 116px;
+    width: 185px;
+    background-image: url("/Images/health-beauty.jpg");
+    background-size: cover;
+}
+.box25-image {
+    height: 300px;
+    width: 379px;
+    background-image: url("/Images/game.jpg");
+    background-size: cover;
+}
+
+.box26-image {
+    height: 300px;
+    width: 379px;
+    background-image: url("/Images/toys.jpg");
+    background-size: cover;
+}
+.footer-panel1 {
+    height: 50px;
+    width:1718px;
+    background-color: #37475a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5px;
+    color:white;
+}
+.footer-panel2 {
+    width: 1718px;
+    height: 400px;
+    background-color: #232F3E;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content:space-between;
+  
+}
+.footer-head{
+    font-size:16px;
+    color:#FFF;
+    margin:6px 0px 14px;
+    font-weight:700;
+}
+
+ul {
+    display: block;
+    margin-top:20px;
+    margin-left:20px;
+}
+ul a{
+    display:block;
+    margin-bottom:14px;
+    color:#DDDDDD;
+    font-family:Arial,sans-serif;
+}
+
+.foot-panel3 {
+    background-color: #232F3E;
+    border-top: 0.45px solid white;
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.foot-panel3-logo {
+  
+    background-image: url("/Images/amazon-logo.jpg");
+    background-size: cover;
+    background-color: #0F1111;
+    width: 100px;
+    height: 50px;
+}
+.foot-panel4 {
+    height: 47px;
+    background-color: #232F3E;
+}
+.privacy-notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding-right:100px;
+}
+
+.registered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
